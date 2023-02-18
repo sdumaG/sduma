@@ -1,0 +1,41 @@
+@page
+{
+  size:A4;
+  margin: 0;
+}
+html,body  {
+  width: 210mm;
+  height: 297mm;
+  max-width: 210mm;
+  max-height: 297mm;
+   
+}
+#print-btn
+{ 
+    background-color: red;
+  /* display: none;
+  visibility: none; */
+}
+
+body{
+    background-color: red;
+}
+
+.recibo-doc{
+
+  outline: solid 1px black;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.recibo-doc > .recibo-doc__title{
+
+}
+
+.recibo-doc > .entregables{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,93 @@
+ 
+/* @media print{ 
+
+    
+    @page {
+        size: 7in 9.25in;
+        margin:0;
+        padding:0;
+    }
+    @page :left {
+        margin-left: 0;
+    }
+    
+    @page :right {
+        margin-left: 0;
+    }
+    @page :bottom {
+        margin-bottom: 0;
+    }
+    @page :top {
+        margin-top: 0;
+    }
+
+}
+ */
+/* @page {
+
+    min-width: 100%;
+
+} */
+/*     body, main {
+        padding: 0;
+    }
+    body > main {
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+        padding: 0;
+    } */
+/*     nav,.navbar,header, footer{
+        display:none;
+        visibility: hidden;
+        max-heigth: 1px;
+        display: block !improtant;
+        margin: 0px !important;
+        border: 0px !important;
+        padding: 0px !important;
+    }
+    #print-btn
+    { 
+      display: none;
+      visibility: none;
+      
+    }
+
+    main > .container{
+        padding-top:0;
+    } */
+
+  
+    *{
+        font-size: 9pt;
+    }
+   .print-soli-cont{    
+       /*  min-width: A4;
+   
+       font-size: 12pt; */
+   }
+
+    .title-secretary{
+        font-size: 13pt;
+    }
+    .title-secretary-secondary{
+        font-size: 11pt;
+    }
+    .title-secretary-third{
+        font-size: 10pt;
+    }
+    .title-secretary-note{
+        font-size: 8pt;
+    }
+    .title-secretary-note-two{
+        font-size: 7pt;
+    }
+   .outlined-box{
+       outline: solid 1px black;
+   }
+
+   .inverted-colors{
+        background-color:gray;
+        color:white;
+        
+    }
